@@ -1,0 +1,46 @@
+### Build / Maven ###
+target/
+*.log
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+dependency-reduced-pom.xml
+
+### Spring Boot local config ###
+src/main/resources/application-dev.properties
+
+### Eclipse / STS ###
+.project
+.classpath
+.settings/
+.factorypath
+.apt_generated
+.springBeans
+.sts4-cache
+.metadata/   # importante, evita lo que ya se te coló
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+
+### Archivos temporales ###
+*.tmp
+*.bak
+*.swp
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
