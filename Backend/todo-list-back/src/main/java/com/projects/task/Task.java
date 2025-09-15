@@ -67,6 +67,6 @@ public class Task {
         HIGH
     }
     
-    @OneToMany(mappedBy = "taks", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "tak", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private List<SubTask> subTaks = new ArrayList<>();
 }
